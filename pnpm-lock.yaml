@@ -1,0 +1,22 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  apps/demo:
+    specifiers:
+      muhammara: ^3.5.0
+    dependencies:
+      muhammara: 3.5.0
+
+packages:
+
+  /muhammara/3.5.0:
+    resolution: {integrity: sha512-xYgf0WuP1yFyfF231PkMQ1xcC0Qi8m0WY1pUDKsDSPkg6/W+CeYhwZDgoT5xIAxWidLX0Uk1MYIw0MladXqecA==}
+    engines: {node: '>=11'}
+    requiresBuild: true
+    dev: false
+    bundledDependencies:
+      - '@mapbox/node-pre-gyp'
